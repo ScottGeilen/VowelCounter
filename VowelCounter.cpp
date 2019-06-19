@@ -23,7 +23,8 @@ int main() {
     for (int i = 0; i < line.length(); ++i)
     {
         // Checks each for each vowel in the user string
-        if(line[i]=='a' || line[i]=='e' || line[i]=='i' || line[i]=='o' || line[i]=='u')
+        if(line[i]=='a' || line[i]=='e' || line[i]=='i' || line[i]=='o' || line[i]=='u' ||
+            line[i]=='A' || line[i]=='E' || line[i]=='I' || line[i]=='O' || line[i]=='U')
         {
             ++vowels;
         }
@@ -32,12 +33,12 @@ int main() {
     // If there is 1 vowel in the user string
     if(vowels == 1)
     {
-        cout << "\n\nYou have " << vowels << " vowel in your line of string.\n\n" << endl;
+        cout << "\n\nYou have " << vowels << " vowel in your string.\n\n" << endl;
     }
     // If there are 0 or more than 1 vowels in the user string
     else
     {
-        cout << "\n\nYou have " << vowels << " vowels in your line of string.\n\n" << endl;
+        cout << "\n\nYou have " << vowels << " vowels in your string.\n\n" << endl;
     }
 
 }
