@@ -26,6 +26,7 @@ int main() {
         if(line[i]=='a' || line[i]=='e' || line[i]=='i' || line[i]=='o' || line[i]=='u' ||
             line[i]=='A' || line[i]=='E' || line[i]=='I' || line[i]=='O' || line[i]=='U')
         {
+            // Increment vowel counter by 1, then add it to variable
             ++vowels;
         }
     }
