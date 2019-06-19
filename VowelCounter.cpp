@@ -22,7 +22,7 @@ int main() {
     // Add 1 to i
     for (int i = 0; i < line.length(); ++i)
     {
-        // Checks each for each vowel in the user string
+        // Checks each for each vowel in the user string, lowercase and uppercase
         if(line[i]=='a' || line[i]=='e' || line[i]=='i' || line[i]=='o' || line[i]=='u' ||
             line[i]=='A' || line[i]=='E' || line[i]=='I' || line[i]=='O' || line[i]=='U')
         {
